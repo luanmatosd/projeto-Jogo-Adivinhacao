@@ -22,9 +22,9 @@ public class Main {
             chosenNumber = scanner.nextInt();
 
             if (randomNumber > chosenNumber) {
-                System.out.println("O número " + chosenNumber + " é menor do que o número escolhido.");
+                System.out.println("O número " + chosenNumber + " é menor do que o número escolhido!");
             } else if (randomNumber < chosenNumber) {
-                System.out.println("O número " + chosenNumber + " é maior do que o número escolhido.");
+                System.out.println("O número " + chosenNumber + " é maior do que o número escolhido!");
             } else {
                 System.out.println("Parabéns, você acertou em " + attempts + " tentativa(s)!");
             }
